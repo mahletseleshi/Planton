@@ -18,7 +18,7 @@ const FAQ = () => {
       <div className="flex flex-col items-center mt-32 w-full justify-between">
        <h1 className="text-[#39DA79] mb-10 border-b-4 flex  font-bold text-[20px] border-[#39DA79]">FREQUENTLY ASKED QUESTIONS</h1>
         <h1 className="text-black/10 mt-[-80px] flex  font-bold text-[30px]">FREQUENTLY ASKED QUESTIONS</h1>
-        <div className="grid grid-cols-2 gap-4 mt-10  w-[1000px]">
+         <div className="grid grid-cols-2 gap-4 mt-10  w-[1000px]">
           {Faq.map((faq, index) => (
             <div key={index}>
               <div

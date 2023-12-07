@@ -3,6 +3,8 @@ import Header from "./Components/Header"
 import About from "./Components/About"
 import Banner from "./Components/Banner"
 import FAQ from "./Components/FAQ"
+import FooterBanner from "./Components/FooterBanner"
+import Footer from "./Components/Footer"
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <About />
       <Banner />
       <FAQ />
+      <FooterBanner />
+      <Footer />
     </div>
   )
 }
