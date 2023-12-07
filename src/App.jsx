@@ -2,6 +2,7 @@ import Navbar from "./Components/NavBar"
 import Header from "./Components/Header"
 import About from "./Components/About"
 import Banner from "./Components/Banner"
+import FAQ from "./Components/FAQ"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <About />
       <Banner />
+      <FAQ />
     </div>
   )
 }
